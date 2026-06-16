@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>پرداخت آنلاین | PayFlow</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&amp;display=swap');
+    body { font-family: 'Vazirmatn', sans-serif; background: #1a1429; color: #f1e7ff; }
+    .pay-card { background: #251d3a; border: 1px solid #3b2f5c; }
+    .accent-purple { color: #c084fc; }
+</style>
+</head>
+<body>
+
+    <div class="max-w-7xl mx-auto px-8 pt-10">
+        <div class="flex items-center justify-between mb-8">
+            <div>
+                <span class="text-purple-400 text-sm tracking-[3px]">PAYFLOW</span>
+                <h1 class="text-6xl font-bold tracking-tighter">پرداخت آنلاین</h1>
+            </div>
+            <div class="px-6 py-3 bg-purple-900/30 rounded-3xl text-sm flex items-center gap-2">
+                <i class="fa-solid fa-lock"></i>
+                <span>امنیت ۲۵۶ بیتی</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div class="lg:col-span-2 pay-card rounded-3xl p-9">
+                <div class="mb-8">
+                    <div class="text-purple-300 mb-2">روش‌های پرداخت</div>
+                    <div class="text-3xl font-semibold">انتخاب روش پرداخت</div>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="flex items-center justify-between p-5 bg-[#1a1429] rounded-2xl border border-purple-900/40">
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-credit-card text-3xl text-purple-400"></i>
+                            <div>
+                                <div class="font-medium">کارت بانکی</div>
+                                <div class="text-sm text-purple-300">شاپرک - آنی</div>
+                            </div>
+                        </div>
+                        <div class="text-emerald-400 text-sm">پیشنهادی</div>
+                    </div>
+                    
+                    <div class="flex items-center justify-between p-5 bg-[#1a1429] rounded-2xl border border-purple-900/40">
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-wallet text-3xl text-purple-400"></i>
+                            <div>
+                                <div class="font-medium">کیف پول دیجیتال</div>
+                                <div class="text-sm text-purple-300">زرین‌پال، نکست‌پی</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pay-card rounded-3xl p-9">
+                <div class="text-sm text-purple-300 mb-4">آمار پرداخت‌های امروز</div>
+                <div class="text-5xl font-bold">۴۸٬۲۳۰</div>
+                <div class="text-purple-300">تراکنش موفق</div>
+                
+                <div class="mt-8 pt-8 border-t border-purple-900/40">
+                    <div class="text-sm mb-2">میانگین زمان پردازش</div>
+                    <div class="font-bold text-3xl">۳ ثانیه</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-10 pay-card rounded-3xl p-9 text-[15.2px] leading-relaxed">
+		<img 
+  src="data:image/jpeg;base64,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" 
+  alt="تحلیل فرم تیم‌های اروپایی" 
+  style="width: 100%; max-width: 850px; height: 320px; object-fit: cover; display: block; margin: 24px auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.3);"
+>
+            پرداخت آنلاین در پلتفرم‌های شرط‌بندی باید سریع، امن و بدون دردسر باشد. تمام تراکنش‌ها با استفاده از پروتکل‌های رمزنگاری پیشرفته انجام می‌شوند. 
+            کاربران می‌توانند از کارت‌های بانکی عضو شاپرک، کیف پول‌های الکترونیکی و حتی ارزهای دیجیتال برای واریز و برداشت استفاده کنند. 
+            در صورت بروز هرگونه مشکل، تیم پشتیبانی مالی به صورت ۲۴ ساعته آماده پاسخگویی است.
+        </div>
+    </div>
+</body>
+</html>
